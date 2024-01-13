@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light {
+  background-color: #faf5fe;
+  color: #af5bda;
+}
+.light li:hover {
+  color: #c889e9; /* Remplacez par la couleur souhaitée */
+  transition: 0.3s;
+}
+
+.dark {
+  background-color: #000000;
+  color: #c889e9;
+}
+
+.dark li:hover {
+  color: #af5bda;
+  transition: 0.3s;
+}
